@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-image:url("./imagenes/chalten\ \(BODY\).jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.main{
+    background-color: rgba(0, 0, 0, 0.568);
+    width:40vw;
+    height:65vh;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.main--h1{
+    color: white;
+    font-weight: 400;
+}
+.main--icon{
+    background-color: cornflowerblue;
+    width: 70px;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main--icon>img{
+width: 50%;
+}
+.header{
+    height:80px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.form{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.label{
+    display: flex;
+}
+.input{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width:90%;
+    padding-left:10px;
+    font-size: 1.2em;
+}
+.header-label{
+    color: white;
+    font-weight:200;
+    font-size: 1.1em;
+    margin-left:0.2em;
+}
+.header-label>input{
+    transform: scale(1.6);
+    margin-right: 0.5em;
+}
+.form>input{
+    background-color: cornflowerblue;
+    width: 6em;
+    height: 2em;
+    align-self: flex-end;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+.form>input:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.p{
+    color: white;
+}
+.main--redirection, p {
+    align-self: center;
+    margin-top: 1.5em;
+}
+.main--redirection{
+    color: rgb(187, 176, 255);
+}
+.section i{
+    width: 1em;
+    font-size: 4em;
+    margin-top: -4em;
+    color: cornflowerblue;
+}
+.section i:hover{
+    color: white;
+    cursor: pointer;
+    
+}

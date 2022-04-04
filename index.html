@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="login para planificar viajes">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<script src="https://kit.fontawesome.com/7f12cc83ea.js" crossorigin="anonymous"></script>
+<body class="body">
+    <main class="main">
+        <header class="header">
+            <h1 class="main--h1">Sign In</h1>
+            <section class="section">
+                <a href="#"><i class="fa-brands fa-facebook-square" ></i></a>
+                <a href=".#"><i class="fa-brands fa-google-plus-square" ></i></a>
+                <a href="#"><i class="fa-brands fa-twitter-square" ></i></a>
+            </section>
+        </header>
+        <form class="form">
+            <label class="label">
+                <div class="main--icon"><img src="./imagenes/personita.png" alt="usuario"></div>
+                <input class="input" type="text" placeholder="username" >
+            </label>
+            <label class="label">
+                <div class="main--icon"><img src="./imagenes/candadito.png" alt="contraseña"></div>
+                <input class="input" type="password" placeholder="password" >
+            </label>
+            <label class="header-label" for="checkbox">
+                <input type="checkbox" name="checkbox" id="checkbox">
+                Remember Me.
+            </label>
+            <input type="button" value="Login">
+        </form>
+        <p class="p">
+            Don't have an account?
+            <a class="main--redirection" href="#">Sing Up</a>
+        </p>
+        <a class="main--redirection" href="#">Forgot your password?</a>
+    </main>
+</body>
+</html>
